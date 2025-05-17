@@ -125,17 +125,7 @@ Add Firebase config to .env.
 
 Apply Firestore rules from firestore.rules.
 
-Deployment
 
-
-
-
-
-Live URL: https://job-portal-react.vercel.app
-
-
-
-Automatic Deploys: Push to main branch triggers Vercel redeploys.
 
 Contributing
 

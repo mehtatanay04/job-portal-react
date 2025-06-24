@@ -1,23 +1,40 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# .gitignore
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
+# Dependencies
+node_modules/
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Build output
+build/
+dist/
+
+# Firebase cache
+.firebase/
+
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# IDE and editor
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+
+# Firebase configuration (we'll create a template)
+src/services/firebase.js

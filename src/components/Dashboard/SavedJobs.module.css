@@ -1,0 +1,143 @@
+.savedJobs {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.emptyIcon {
+  font-size: 3rem;
+  color: #a0aec0;
+  margin-bottom: 1rem;
+}
+
+.emptyState h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.emptyState p {
+  color: #718096;
+  margin-bottom: 1.5rem;
+}
+
+.browseButton {
+  background: #4a6bff;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.browseButton:hover {
+  background: #3a5bef;
+}
+
+.jobsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.jobCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.jobHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.jobHeader h3 {
+  font-size: 1.2rem;
+}
+
+.unsaveButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #f0f4ff;
+  color: #4a6bff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.unsaveButton:hover {
+  background: #e0e7ff;
+}
+
+.company {
+  color: #4a6bff;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.jobDetails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.jobActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.applyButton {
+  background: #4a6bff;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.applyButton:hover {
+  background: #3a5bef;
+}
+
+.viewButton {
+  background: #f0f4ff;
+  color: #4a6bff;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.viewButton:hover {
+  background: #e0e7ff;
+}

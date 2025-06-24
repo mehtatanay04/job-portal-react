@@ -1,0 +1,134 @@
+.applications {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.emptyState h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.emptyState p {
+  color: #718096;
+  margin-bottom: 1.5rem;
+}
+
+.browseButton {
+  background: #4a6bff;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.browseButton:hover {
+  background: #3a5bef;
+}
+
+.applicationsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.applicationCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid;
+}
+
+.applicationHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.statusIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.applicationHeader h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.company {
+  color: #4a6bff;
+  font-weight: 500;
+}
+
+.applicationDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.statusBadge {
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.applicationDate {
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.applicationActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.viewButton {
+  background: #4a6bff;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.viewButton:hover {
+  background: #3a5bef;
+}
+
+.withdrawButton {
+  background: #fff5f5;
+  color: #e53e3e;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.withdrawButton:hover {
+  background: #fed7d7;
+}

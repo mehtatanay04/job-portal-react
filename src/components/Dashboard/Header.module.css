@@ -1,0 +1,113 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background: #f5f7fb;
+  border-radius: 24px;
+  padding: 0.5rem 1rem;
+  width: 400px;
+}
+
+.searchIcon {
+  color: #a0aec0;
+  margin-right: 0.5rem;
+}
+
+.searchInput {
+  border: none;
+  background: transparent;
+  width: 100%;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.notificationButton {
+  position: relative;
+  background: none;
+  border: none;
+  color: #4a5568;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: #e53e3e;
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  font-size: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userProfile {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.userAvatar {
+  font-size: 2rem;
+  color: #4a6bff;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.userName {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.userRole {
+  font-size: 0.8rem;
+  color: #718096;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .searchContainer {
+    width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .searchContainer {
+    width: 100%;
+  }
+  
+  .userActions {
+    width: 100%;
+    justify-content: space-between;
+  }
+}

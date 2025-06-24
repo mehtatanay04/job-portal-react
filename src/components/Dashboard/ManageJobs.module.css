@@ -1,0 +1,183 @@
+.manageJobs {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.newJobButton {
+  background: #4a6bff;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.newJobButton:hover {
+  background: #3a5bef;
+}
+
+.emptyState {
+  text-align: center;
+  padding: 3rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.emptyState h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.emptyState p {
+  color: #718096;
+  margin-bottom: 1.5rem;
+}
+
+.createButton {
+  background: #4a6bff;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.createButton:hover {
+  background: #3a5bef;
+}
+
+.jobsList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.jobCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.jobHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.jobIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background: #f0f4ff;
+  color: #4a6bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.jobHeader h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.jobMeta {
+  display: flex;
+  gap: 1.5rem;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.status {
+  padding: 0.2rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.status.active {
+  background: #c6f6d5;
+  color: #276749;
+}
+
+.status.closed {
+  background: #fed7d7;
+  color: #9b2c2c;
+}
+
+.jobStats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid #edf2f7;
+  border-bottom: 1px solid #edf2f7;
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+
+.jobActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.viewButton, .editButton, .deleteButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.viewButton {
+  background: #f0f4ff;
+  color: #4a6bff;
+}
+
+.viewButton:hover {
+  background: #e0e7ff;
+}
+
+.editButton {
+  background: #fefcbf;
+  color: #975a16;
+}
+
+.editButton:hover {
+  background: #faf089;
+}
+
+.deleteButton {
+  background: #fff5f5;
+  color: #e53e3e;
+}
+
+.deleteButton:hover {
+  background: #fed7d7;
+}

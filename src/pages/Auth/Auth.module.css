@@ -1,0 +1,242 @@
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 2rem;
+}
+
+.authCard {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  width: 100%;
+  max-width: 450px;
+  animation: fadeIn 0.5s ease;
+}
+
+.authHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.authHeader h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.authHeader p {
+  color: #718096;
+  font-size: 0.95rem;
+}
+
+.authForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.inputGroup {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 1rem;
+  color: #a0aec0;
+  font-size: 1rem;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 0.85rem 1rem 0.85rem 2.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.3s;
+}
+
+.inputGroup input:focus {
+  border-color: #4a6bff;
+  box-shadow: 0 0 0 3px rgba(74, 107, 255, 0.2);
+  outline: none;
+}
+
+.rememberForgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85rem;
+}
+
+.rememberForgot label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #4a5568;
+  cursor: pointer;
+}
+
+.rememberForgot a {
+  color: #4a6bff;
+  text-decoration: none;
+}
+
+.rememberForgot a:hover {
+  text-decoration: underline;
+}
+
+.roleSelection {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.roleOptions {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.roleOptions label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.terms label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: #4a5568;
+}
+
+.terms a {
+  color: #4a6bff;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+.authButton {
+  background-color: #4a6bff;
+  color: white;
+  padding: 0.85rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.authButton:hover {
+  background-color: #3a5bef;
+}
+
+.authButton:disabled {
+  background-color: #cbd5e0;
+  cursor: not-allowed;
+}
+
+.socialAuth {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.socialAuth p {
+  color: #718096;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.socialAuth p::before,
+.socialAuth p::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 30%;
+  height: 1px;
+  background-color: #e2e8f0;
+}
+
+.socialAuth p::before {
+  left: 0;
+}
+
+.socialAuth p::after {
+  right: 0;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.socialButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  color: #4a5568;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.socialButton:hover {
+  background-color: #f7fafc;
+  border-color: #cbd5e0;
+}
+
+.authFooter {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #718096;
+  font-size: 0.9rem;
+}
+
+.authFooter a {
+  color: #4a6bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.authFooter a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: #e53e3e;
+  background-color: #fff5f5;
+  padding: 0.75rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  border: 1px solid #fed7d7;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,266 @@
+.jobsDashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #2d3748;
+}
+
+.header p {
+  color: #718096;
+  font-size: 1.1rem;
+}
+
+.filterSection {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+
+.searchContainer {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #a0aec0;
+}
+
+.searchContainer input {
+  width: 100%;
+  padding: 0.9rem 1rem 0.9rem 3rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.searchContainer input:focus {
+  outline: none;
+  border-color: #4a6bff;
+  box-shadow: 0 0 0 3px rgba(74, 107, 255, 0.2);
+}
+
+.filterRow {
+  display: flex;
+  gap: 1rem;
+}
+
+.filterGroup {
+  flex: 1;
+}
+
+.filterGroup select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #f8fafc;
+}
+
+.filterGroup select:focus {
+  outline: none;
+  border-color: #4a6bff;
+}
+
+.content {
+  display: flex;
+  gap: 2rem;
+}
+
+.jobsList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.jobCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s;
+}
+
+.jobCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.jobHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.companyLogo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #4a6bff;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.jobHeader h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.company {
+  color: #4a6bff;
+  font-weight: 500;
+}
+
+.description {
+  color: #4a5568;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.jobDetails {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.detailItem {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.jobActions {
+  display: flex;
+  gap: 1rem;
+}
+
+.applyButton {
+  background: #4a6bff;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.applyButton:hover {
+  background: #3a5bef;
+}
+
+.saveButton {
+  background: #f0f4ff;
+  color: #4a6bff;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.saveButton:hover {
+  background: #e0e7ff;
+}
+
+.sidebar {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebarSection {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.sidebarSection h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #2d3748;
+}
+
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.categoryList li button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.7rem;
+  background: transparent;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.2s;
+}
+
+.categoryList li button:hover {
+  background: #f8fafc;
+}
+
+.categoryList li.active button {
+  background: #f0f4ff;
+  color: #4a6bff;
+  font-weight: 500;
+}
+
+.alertButton {
+  background: #4a6bff;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.alertButton:hover {
+  background: #3a5bef;
+}
+
+@media (max-width: 992px) {
+  .content {
+    flex-direction: column;
+  }
+  
+  .sidebar {
+    width: 100%;
+  }
+}

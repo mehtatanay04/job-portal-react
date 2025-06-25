@@ -38,3 +38,4 @@ yarn-error.log*
 
 # Firebase configuration (we'll create a template)
 src/services/firebase.js
+src/services/firebase.private.js

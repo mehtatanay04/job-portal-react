@@ -176,7 +176,7 @@ export default function Home() {
         <div className={styles.authContainer}>
           <div className={styles.authBrand}>
             <span className={styles.authLogo}>🎯</span>
-            <span className={styles.authBrandName}>JobPortal</span>
+            <span className={styles.authBrandName}>HireNext</span>
           </div>
           <div className={styles.authButtons}>
             <Link to="/login" className={styles.authSignIn}>
